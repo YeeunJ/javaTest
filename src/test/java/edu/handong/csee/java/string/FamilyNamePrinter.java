@@ -10,7 +10,7 @@ class FamilyNamePrinter{
         size = stringNames.length;
         familyNames = new String[size];
         for(int i = 0; i < size; i++){
-            familyNames[i]= stringNames[i].trim().split(" ")[1];
+            familyNames[i]= stringNames[i].trim().split(" ")[0];
         }
     }
 
