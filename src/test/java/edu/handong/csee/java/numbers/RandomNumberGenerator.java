@@ -10,6 +10,7 @@ public class RandomNumberGenerator{
         secondNumber = n2;
     }
 
+	
     void generateRandomNumber(){
         randomNumber = (int)((Math.random() * (secondNumber - firstNumber + 1)) + firstNumber);
     }
