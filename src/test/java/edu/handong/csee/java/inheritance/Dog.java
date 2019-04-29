@@ -27,7 +27,7 @@ public class Dog extends Animal {
 		myAnimal.testInstanceMethod(); //오버라이딩
 		myAnimal2.testInstanceMethod();
 		myDog.setDog("John");//은닉화
-		myDog.getDog();//은닉화
+		System.out.println("The dog's name is " + myDog.getDog());//은닉화
 	}
 }
 
