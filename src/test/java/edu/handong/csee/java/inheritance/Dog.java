@@ -20,7 +20,7 @@ public class Dog extends Animal {
 	
 	public static void main(String[] args) {
 		Dog myDog = new Dog();
-		Animal myAnimal = myDog;
+		Animal myAnimal = myDog;//다형성
 		Cat myCat = new Cat();
 		Animal myAnimal2 = myCat;
 		Animal.testClassMethod();
@@ -28,7 +28,6 @@ public class Dog extends Animal {
 		myAnimal2.testInstanceMethod();
 		myDog.setDog("John");//은닉화
 		myDog.getDog();//은닉화
-		//이렇게 오버라이딩 하는 것을 다형성이라고 
 	}
 }
 
