@@ -4,11 +4,11 @@ public class Dog extends Animal {
 	private String dog;
 	
 	public static void testClassMethod() {
-		System.out.println("The static method in Dog");
+		System.out.println("The static method in Dog");//hidding
 	}
 	
 	public void testInstanceMethod() {
-		System.out.println("The instance method in Dog");
+		System.out.println("The instance method in Dog");//hiding
 	}
 	
 	public void setDog(String var) {
@@ -26,8 +26,8 @@ public class Dog extends Animal {
 		Animal.testClassMethod();
 		myAnimal.testInstanceMethod(); //오버라이딩
 		myAnimal2.testInstanceMethod();
-		myDog.setDog("John");//은닉화
-		System.out.println("The dog's name is " + myDog.getDog());//은닉화
+		myDog.setDog("John");
+		System.out.println("The dog's name is " + myDog.getDog());
 	}
 }
 
