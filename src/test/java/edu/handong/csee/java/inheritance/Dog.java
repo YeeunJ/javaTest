@@ -8,7 +8,7 @@ public class Dog extends Animal {
 	}
 	
 	public void testInstanceMethod() {
-		System.out.println("The instance method in Dog");//hiding
+		System.out.println("The instance method in Dog");
 	}
 	
 	public void setDog(String var) {
